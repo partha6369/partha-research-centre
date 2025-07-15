@@ -74,6 +74,50 @@ with gr.Blocks(title=APP_TITLE) as app:
                                                      interactive=False,
                                                      container=False)
 
+                                with gr.TabItem("📊 CryptoLens"):
+                                    with gr.Row():
+                                        with gr.Column():
+                                            gr.HTML("""
+                                            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 40px; margin-top: 20px;">
+                                                
+                                                <!-- LEFT: App Description -->
+                                                <div style="flex: 1; min-width: 300px; max-width: 600px; font-size: 15px; line-height: 1.6;">
+                                                    <a href="https://huggingface.co/spaces/partha6369/cryptolens" target="_blank">
+                                                        <button style="background-color:#4CAF50;color:white;padding:10px 20px;
+                                                        font-size:16px;border:none;border-radius:5px;cursor:pointer;margin-top:10px;">
+                                                            🚀 Open CryptoLens App
+                                                        </button>
+                                                    </a>
+                                                    <h3>📊 CryptoLens</h3>
+                                                    <p>
+                                                    CryptoLens is an AI-powered crypto sentiment and blockchain analytics tool designed to assist investors, researchers, and financial analysts in bridging the gap between real-world narratives and on-chain behavior. By analyzing news headlines and social media posts using multiple sentiment engines, CryptoLens enables fast and explainable insights into market mood and its potential blockchain implications.
+                                                    </p>
+                                                    <p>
+                                                    Users can input or select any crypto-related headline — for example, “Ethereum staking reaches new high” or “Bitcoin tumbles below $60,000” — and instantly receive sentiment scores from VADER, TextBlob, and FinBERT, each paired with a Gemini-generated explanation. The app also automatically formulates a Dune-compatible SQL query to explore relevant on-chain metrics such as transaction volumes, wallet activity, or TVL on platforms like Arbitrum, Avalanche, and Gnosis.
+                                                    </p>
+                                                    <p>
+                                                    💡 <strong>Technology Used:</strong><br>
+                                                    • <code>VADER</code> for lexicon-based sentiment scoring<br>
+                                                    • <code>TextBlob</code> for polarity-based sentiment detection<br>
+                                                    • <code>FinBERT</code> for transformer-based financial text classification<br>
+                                                    • <code>Gemini Pro</code> by Google for LLM-based interpretation and SQL generation<br>
+                                                    • <code>Gradio</code>, <code>Tweepy</code>, and <code>BeautifulSoup</code> for interface, data scraping, and visualisation<br>
+                                                    • <code>Pandas</code>, <code>Matplotlib</code>, <code>Seaborn</code> for chart generation
+                                                    </p>
+                                                    <p>
+                                                    CryptoLens empowers users to analyse the interplay between language-driven sentiment and blockchain metrics — making it an ideal companion for crypto traders, DeFi researchers, and AI enthusiasts seeking to turn words into data-driven, on-chain exploration.
+                                                    </p>                                                    
+                                                </div>
+                                            </div>
+                                            """)
+
+                                        with gr.Column():
+                                            gr.Image(value="static/AppImage-cryptolens.png", 
+                                                     show_label=False,
+                                                     show_download_button=False,
+                                                     interactive=False,
+                                                     container=False)
+                                            
                                 with gr.TabItem("🩺 NidanaMap"):
                                     with gr.Row():
                                         with gr.Column():
