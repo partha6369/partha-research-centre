@@ -4,9 +4,9 @@ emoji: 📚
 colorFrom: indigo
 colorTo: blue
 sdk: gradio
-sdk_version: 5.36.2
+sdk_version: 5.37.0
 app_file: app.py
-pinned: true
+pinned: false
 license: mit
 short_description: Works from Dr. Partha Majumdar's research.
 ---
@@ -24,6 +24,7 @@ Each application is hosted as a dedicated Gradio space, ensuring modular develop
 - **🧠 BhāvaViveka (भावविवेक):** Emotion classification and deeper affective interpretation of text.
 - **🩺 NidanaMap:** Maps symptoms and health queries to possible causes using AI.
 - **🎯 Tic Tac Toe Agent:** A fun AI-based Tic Tac Toe game powered by temporal-difference learning.
+- **🧼 textcleaner-partha Demonstration:** An app to demonstrate the functioning of the textcleaner-partha library..
 
 ## 🚀 Access and Use
 
