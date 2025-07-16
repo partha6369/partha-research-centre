@@ -74,6 +74,48 @@ with gr.Blocks(title=APP_TITLE) as app:
                                                      interactive=False,
                                                      container=False)
 
+                                with gr.TabItem("👁️‍🗨️ Chāyādr̥ṣṭi (छायादृष्टि)"):
+                                    with gr.Row():
+                                        with gr.Column():
+                                            gr.HTML("""
+                                            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 40px; margin-top: 20px;">
+                                                
+                                                <!-- LEFT: App Description -->
+                                                <div style="flex: 1; min-width: 300px; max-width: 600px; font-size: 15px; line-height: 1.6;">
+                                                    <a href="https://huggingface.co/spaces/partha6369/chayadrsti" target="_blank">
+                                                        <button style="background-color:#4CAF50;color:white;padding:10px 20px;
+                                                        font-size:16px;border:none;border-radius:5px;cursor:pointer;margin-top:10px;">
+                                                            🚀 Open Chāyādr̥ṣṭi (छायादृष्टि) App
+                                                        </button>
+                                                    </a>
+                                                    <h3>👁️‍🗨️ Chāyādr̥ṣṭi (छायादृष्टि)</h3>
+                                                    <p>
+                                                    Chāyādr̥ṣṭi (छायादृष्टि) is an AI-powered career insight and guidance tool created to assist students, professionals, and career coaches in interpreting résumés through the lens of data, dharma, and informed decision-making. Designed with clarity and compassion, Chāyādr̥ṣṭi enables structured reflection on one's strengths, role suitability, and learning gaps.
+                                                    </p>
+                                                    <p>
+                                                    Users can upload any résumé in PDF or DOCX format — whether a fresher’s profile or a seasoned professional’s CV — and receive a cleanly extracted list of technical and non-technical skills. The app then recommends a job role aligned with those skills, highlights the missing competencies needed to reach that role, and offers personalised guidance in natural language using Google Gemini. This makes Chāyādr̥ṣṭi ideal for both self-driven introspection and structured mentoring.
+                                                    </p>
+                                                    <p>
+                                                    💡 <strong>Technology Used:</strong><br>
+                                                    • <code>PyMuPDF</code> and <code>python-docx</code> for parsing and extracting resume content<br>
+                                                    • <code>Google Gemini Pro</code> for skill mapping, role matching, and ethical guidance<br>
+                                                    • <code>Gradio</code> for interactive user interface<br>
+                                                    • <code>Pandas</code> for structured text handling and response formatting
+                                                    </p>
+                                                    <p>
+                                                    Chāyādr̥ṣṭi reflects the vision to democratise career counselling, offering thoughtful, AI-driven career support to individuals from all backgrounds. By interpreting your résumé through an intelligent yet dharmic lens, it transforms raw experiences into meaningful pathways forward.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            """)
+
+                                        with gr.Column():
+                                            gr.Image(value="static/AppImage-chayadrsti.png", 
+                                                     show_label=False,
+                                                     show_download_button=False,
+                                                     interactive=False,
+                                                     container=False)
+                                
                                 with gr.TabItem("📊 CryptoLens"):
                                     with gr.Row():
                                         with gr.Column():

@@ -26,6 +26,7 @@ Each application is hosted as a dedicated Gradio space, ensuring modular develop
 - **🎯 Tic Tac Toe Agent:** A fun AI-based Tic Tac Toe game powered by temporal-difference learning.
 - **🧼 textcleaner-partha Demonstration:** An app to demonstrate the functioning of the textcleaner-partha library.
 - **📊 CryptoLens: Crypto Sentiment Analyser:** A Gemini-based app to analyse and compare cryptocurrencies.
+- **👁️‍🗨️ Chāyādr̥ṣṭi (छायादृष्टि) – Skill Insight and Career Pathway:** A Gemini-based Career Guidance app.
 
 ## 🚀 Access and Use
 
